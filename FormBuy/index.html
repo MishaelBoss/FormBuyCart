@@ -40,7 +40,9 @@
                 <label style="color: white;">Скрыть реквизиты</label><br><br>
                 </div>
                 <form method="post">
-                    <p class="bonus"><b>ВТБ </b> 26 бонусов</p>
+                    <div id="block-card">
+                        <p class="bonus"><b id="op-card2">NONE </b> 26 бонусов</p>
+                    </div>
             <input required type="text" placeholder="Номер карты" class="input-card-number" maxlength="16" id="card" min="0" onchange="changeCard()" >
             <input required type="text" placeholder="CVV" class="input-card-number" maxlength="3" min="0" id="cvv" style="width: 17%;" onchange="changeCVV()"><br><br>
             <select required class="input-card-select" onchange="
