@@ -6,12 +6,15 @@ var ae = [34, 37];
 
 function changeCard(){
     var str = document.getElementById('card').value.toString();
+    var imageElement = document.getElementById("images-bank");
+
     while (str.length < 16){
         str += '0';
     }
     document.getElementById('image-card').innerHTML = str;
     if (str.substring(0, 1) == '4'){
         document.getElementById('op-card').innerHTML = 'VISA';
+        imageElement.src = "imges/visa.png";
     }
     else if (str.substring(0, 1) == '2'){
         document.getElementById('op-card').innerHTML = 'MIR';
