@@ -26,7 +26,8 @@
             </div>
             <br><br>
             <div style="display: inline;">
-                <input type="checkbox" value="" id="check" onclick="
+                <div style="display: flex; align-items: center;">
+                    <input class="checkbox" type="checkbox" value="" id="check" onclick="
                     if (document.getElementById('check').checked){
                         document.getElementById('block-card').setAttribute('style', 'filter: blur(10px)');
                     }
@@ -34,6 +35,7 @@
                         document.getElementById('block-card').setAttribute('style', 'filter: none');
                     }">
                 <label style="color: white;">Скрыть реквизиты</label><br><br>
+                </div>
                 <form method="post">
                     <p class="bonus"><b>ВТБ </b> 26 бонусов</p>
             <input required type="text" placeholder="Номер карты" class="input-card-number" maxlength="16" id="card" min="0" onchange="changeCard()" >

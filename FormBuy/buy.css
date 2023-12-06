@@ -118,3 +118,9 @@ text-align: center;
   cursor: pointer;
   color:#ff00cc;
 }
+
+.checkbox{
+  height: 25px;
+  width: 25px;
+  background-color: #ff00cc;
+}
