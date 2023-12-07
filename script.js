@@ -74,7 +74,7 @@ function changeCard(){
         imageElement2.src = "images/xz-bank.jpg";
     }
     else{
-        document.getElementById('op-card').innerHTML = 'Карта не указана';
+        document.getElementById('op-card').innerHTML = 'Карта не указана!';
         document.getElementById('bonus').innerHTML = '';
         imageElement.src = "";
         imageElement2.src = "";
