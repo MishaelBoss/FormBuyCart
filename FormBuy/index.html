@@ -11,6 +11,13 @@
 </head>
 <body>
     <script src="script.js"></script>
+    <div id="oplata" class="spin-wrapper">
+        <div class="spinner">
+            <img class="iconbank" id="images-bank2" style="width: 100%;" src="">
+        </div>
+        <p style="margin-left: 820px; margin-top: 450px; color: orange; font-size: 2rem;">Идет оплата ждите...</p>
+    </div>
+
     <div id="outer">
         <div id="inner">
             <div class="container" id="block-card">
@@ -47,7 +54,7 @@
                 </div>
                 <form method="post">
                     <div style="display: flex; align-items: center;" class="bonus">
-                        <b id="op-card2">Карта не указана!</b> <p id="bonus"></p>
+                        <b id="op-card2">Карта не указана</b> <p id="bonus"></p>
                     </div>
             <input required type="text" placeholder="Номер карты" class="input-card-number" maxlength="16" id="card" min="0" onchange="changeCard()" >
             <input required type="text" placeholder="CVV" class="input-card-number" maxlength="3" min="0" id="cvv" style="width: 17%;" onchange="changeCVV()"><br><br>
@@ -78,7 +85,7 @@
                 
             </select><br><br>
                     <input type="text" placeholder="Адрес" class="input-card-number" style="width: 100%;" name="pizza_address"><br><br>
-            <button type="submit" class="button-buy" onclick="alert(':|')">КУПИТЬ</button><br><br>
+            <button type="submit" class="button-buy" value="Click" onmousedown="viewDiv()">КУПИТЬ</button><br><br>
             </form>
         </div><br><br>
 
