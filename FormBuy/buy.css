@@ -109,6 +109,7 @@ text-align: center;
   background: rgba(255, 255, 255, .3);
 }
 .bonus b, p{
+  margin-left: 10px;
   color: white;
   font-size: 2cap;
   transition: all 0.5s;
