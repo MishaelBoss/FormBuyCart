@@ -87,6 +87,7 @@ text-align: center;
   color: black;
   display: inline-block;
   font-weight: bold;
+  cursor: pointer;
 }
 .button-buy:hover{
   background: rgba(255, 255, 255, .3);
